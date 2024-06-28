@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>documents</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="slide-1" id="slide-1">
+        <img src="BROWN splash vector bg.png" alt="brown background">
+
+        <div class="navbar">
+            <div class="menu" id="menu">
+                <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="sidebar">
+                    <i class="fas fa-bars" style="font-size:30px;"></i>
+                </button>
+            </div>
+            <ul>
+                <li><a href="#slide-1" class="nav-link active">HOME</a></li>
+                <li><a href="#slide-2" class="nav-link">ABOUT</a></li>
+                <li><a href="#slide-3" class="nav-link">MENU</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT US</a></li>
+                <li><button class="order-btn"><a href="#order">ORDER</a></button></li>
+            </ul>
+            
+        </div>
+        <div class="sidebar" id="sidebar" aria-hidden="true">
+            <button class="close-btn" id="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <p>USER</p>
+            
+            <div class="profile-picture">
+                <img src="profile-icon-png-910.png" alt="profile icon">
+            </div>
+            <div class="line"></div>
+            <ul>
+                <li><a href="#slide-1" class="nav-link active">HOME</a></li>
+                <li><a href="#slide-2" class="nav-link">ABOUT</a></li>
+                <li><a href="#slide-3" class="nav-link">MENU</a></li>
+                <li><a href="#slide-4" class="nav-link">CONTACT US</a></li>
+                <li><button class="order-btn"><a href="#order">ORDER</a></button></li>
+            </ul>
+            
+        </div>
+
+        <div class="content-1">
+            <p class="content1-header1">BRO'COF</p>
+            <p class="content1-header2">Broders Coffee</p>
+        </div>
+    </section>
+    <section class="slide-2" id="slide-2">
+        <div class="content-2">
+            <div class="content2-header"><p>ABOUT<br>US</p></div>
+            <div class="content2-text"><p>Selamat datang di BRO'COF, tempat di mana kopi bukan sekadar minuman,
+                melainkan pengalaman! Kami adalah kedai kopi yang berdedikasi untuk menyajikan kopi terbaik dengan
+                cita rasa yang menggugah selera. Di BRO'COF, setiap cangkir kopi diseduh dengan penuh perhatian
+                dan cinta, memastikan Anda merasakan kehangatan dan kenikmatan di setiap tegukan. <br><br>
+            
+                Di BRO'COF, kami mengusung filosofi bahwa kopi adalah seni. Setiap barista kami adalah seniman
+                yang terampil, yang siap menyajikan berbagai jenis minuman kopi, mulai dari espresso klasik
+                hingga kreasi-kreasi baru yang inovatif. Kami juga memahami pentingnya suasana yang nyaman dan
+                menyenangkan, sehingga kami merancang setiap sudut kafe kami dengan sentuhan yang hangat dan ramah.</p></div>
+        </div>
+    </section>
+    <section class="slide-3" id="slide-3">
+        <div class="content-3">
+            <div class="content3-header"><p>OUR MENU</p></div>
+            
+            <div class="content3-grid">
+                <div class="menu-1" id="menu-1">
+                    <div class="menu-1-front">
+                        <img class="hover-image" src="arantxa-aniorte-wIaYi63cmis-unsplash.jpg" alt="brownies food menu">
+                    </div>
+                    <div class="menu-1-back">
+                        <p> Brownies BRO'COF <br> <br>
+                            Classic Chocolate Brownies <br>
+                            Brownies klasik dengan rasa cokelat yang intens, sempurna untuk para pecinta cokelat sejati. Teksturnya lembut dan fudgy, dengan aroma cokelat yang menggoda. <br><br>
+                            Harga: Rp 25.000 <br><br>
+                            Walnut Brownies <br>
+                            Kombinasi sempurna antara brownies cokelat dan potongan kacang walnut yang renyah. Setiap gigitan menghadirkan keseimbangan antara manisnya cokelat dan gurihnya walnut.<br><br>
+                            Harga: Rp 30.000<br><br>
+                            Cheese Brownies<br>
+                            Perpaduan antara brownies cokelat dan lapisan keju cream cheese yang lembut. Memberikan sensasi rasa yang unik dan memanjakan lidah.<br><br>
+                            Harga: Rp 35.000</p>
+                    </div>
+                    <button class="desc-btn" onclick="flipmenu('menu-1')">DESCRIPTION</button>
+                </div>
+                <div class="menu-2" id="menu-2">
+                    <div class="menu-2-front">
+                        <img class="hover-image" src="cadenc-_moving-5KKldJx02xo-unsplash.jpg" alt="chocolate ice cream food menu">
+                    </div>
+                    <div class="menu-2-back">
+                        <p> Ice Cream BRO'COF<br><br>
+                            Vanilla Delight<br> <br>
+
+                            Es krim vanilla klasik dengan rasa yang lembut dan manis, dibuat dari biji vanilla asli yang memberikan aroma dan rasa autentik.<br> <br>
+                            Harga: Rp 20.000<br>
+
+                            Chocolate Indulgence<br> <br>
+                            
+                            Es krim cokelat yang kaya dan pekat, dibuat dari cokelat premium yang meleleh di mulut dan memanjakan lidah.<br> <br>
+                            Harga: Rp 25.000<br>
+
+                            Strawberry Dream<br> <br>
+                            
+                            Es krim stroberi dengan potongan buah asli yang segar, memberikan perpaduan rasa manis dan asam yang menyegarkan.<br> <br>
+                            Harga: Rp 22.000</p>
+                    </div>
+                    <button class="desc-btn" onclick="flipmenu('menu-2')">DESCRIPTION</button>
+                </div>
+                <div class="menu-3" id="menu-3">
+                    <div class="menu-3-front">
+                        <img class="hover-image" src="jeremy-yap-jn-HaGWe4yw-unsplash.jpg" alt="coffee drinks menu">
+                    </div>
+                    <div class="menu-3-back">
+                        <p> Coffee BRO'COF<br><br>
+                            Cappuccino<br><br>
+
+                            Perpaduan sempurna antara espresso, susu panas, dan busa susu. Memberikan rasa yang seimbang antara kuatnya kopi dan lembutnya susu.<br><br>
+                            Harga: Rp 25.000<br>
+                            
+                            Latte<br><br>
+                            
+                            Kombinasi espresso dengan susu panas yang creamy, memberikan rasa yang lembut dan nikmat. Cocok untuk Anda yang menyukai kopi dengan sentuhan susu yang lembut.<br><br>
+                            Harga: Rp 27.000<br>
+                        
+                            Caramel Macchiato<br><br>
+
+                            Kombinasi espresso dengan susu panas dan sirup karamel, memberikan rasa yang manis dan memanjakan. Cocok untuk Anda yang menyukai kopi dengan rasa karamel yang kaya.<br><br>
+                            Harga: Rp 32.000</p>
+                    </div>
+                    <button class="desc-btn" onclick="flipmenu('menu-3')">DESCRIPTION</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slide-4" id="slide-4">
+        <div class="content4-header">
+            <p>CONTACT US!</p>
+        </div>
+        <div class="content4-grid">
+            <div class="person-1">
+                <img src="akmal contact pic.png" alt="akmal icon picture">
+                <i class="fas fa-solid fa-user">
+                    <p>Muhamad Akmal Al Fatah</p>
+                </i>
+                <i class="fas fa-solid fa-graduation-cap">
+                    <p>2310511165</p>
+                </i>
+                <i class="fas fa-solid fa-envelope">
+                    <p>akmalalfatah45@gmail.com</p>
+                </i>
+                <i class="fas fa-solid fa-phone">
+                    <p>081519507725</p>
+                </i>
+                
+            </div>
+            <div class="person-2">
+                <img src="aufar contact pic.jpg" alt="aufar icon picture"> <br>
+                <i class="fas fa-solid fa-user">
+                    <p>Abdul Faris Aufar</p>
+                </i>
+                <i class="fas fa-solid fa-graduation-cap">
+                    <p>2310511154</p>
+                </i>
+                <i class="fas fa-solid fa-envelope">
+                    <p>abdulfarisaufar@gmail.com</p>
+                </i>
+                <i class="fas fa-solid fa-phone">
+                    <p>087781843534</p>
+                </i>
+            </div>
+            <div class="person-3">
+                <img src="Kresno contact pic.jpg" alt="Kresno icon picture">
+                <i class="fas fa-solid fa-user">
+                    <p>Kresno Widiatmoko</p>
+                </i>
+                <i class="fas fa-solid fa-graduation-cap">
+                    <p>2310511130</p>
+                </i>
+                <i class="fas fa-solid fa-envelope">
+                    <p>kresnowidiatmoko@gmail.com</p>
+                </i>
+                <i class="fas fa-solid fa-phone">
+                    <p>082211961459</p>
+                </i>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const sidebar = document.getElementById('sidebar');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    menuBtn.addEventListener('click', () => {
+        const isActive = sidebar.classList.toggle('active');
+        document.body.classList.toggle('sidebar-open');
+        menuBtn.setAttribute('aria-expanded', isActive);
+        sidebar.setAttribute('aria-hidden', !isActive);
+    });
+
+    closeBtn.addEventListener('click', () => {
+        sidebar.classList.remove('active');
+        document.body.classList.remove('sidebar-open');
+        menuBtn.setAttribute('aria-expanded', false);
+        sidebar.setAttribute('aria-hidden', true);
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+        });
+    });
+
+    window.addEventListener('click', (e) => {
+        if (sidebar.classList.contains('active') && !sidebar.contains(e.target) && !menuBtn.contains(e.target)) {
+            sidebar.classList.remove('active');
+            document.body.classList.remove('sidebar-open');
+            menuBtn.setAttribute('aria-expanded', false);
+            sidebar.setAttribute('aria-hidden', true);
+        }
+        });
+    });
+
+    function flipmenu(id) {
+            const menu = document.getElementById(id);
+            menu.classList.toggle('flipped');
+        }
+    </script>
+</body>
+</html>
